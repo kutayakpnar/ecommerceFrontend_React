@@ -1,0 +1,75 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.App {
+  text-align: center;
+  background-color: orange;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 100px;
+  color:whitesmoke;
+  margin: 0;
+  margin-bottom: 20px; /* Başlık altında bir boşluk bırakmak için */
+}
+
+.logo {
+  width: 400px; 
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  
+}
+
+.product-list {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); /* Adjust the minimum width as needed */
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  background-color:wheat;
+  display:grid;
+  
+}
+
+.product img {
+  max-width: 40%; /* Resmi enine sığdırır */
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px;
+  background-color: black;
+} 
+
+.product .image-container {
+  background-color: gray;
+  padding: 5px;
+}
+
+
+
+.cart {
+ 
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color:gray;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.cart li {
+ padding: 5px;
+}
+.top-right {
+  color: white;
+  position: absolute;
+  top: 150px; /* Bu değeri gerektiğine göre ayarlayın */
+  right: 150px;
+}
